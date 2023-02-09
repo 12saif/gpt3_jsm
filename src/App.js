@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./App.css";
+
 import Footer from "./containers/footer/Footer";
 import Blog from "./containers/blog/Blog";
 import Possibility from "./containers/possibility/Possibility";
