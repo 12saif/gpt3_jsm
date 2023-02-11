@@ -93,4 +93,5 @@
 
 .gpt3__navbar-menu_container-links-sign {
   display: none;
+  display: flex;
 }
