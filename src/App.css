@@ -2,9 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--color-bg);
+  /* color: white; */
+}
+a {
+  color: unset;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
