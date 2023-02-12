@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 
 const Header = () => {
+<<<<<<< HEAD
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
@@ -12,6 +13,9 @@ const Header = () => {
       </div>
     </div>
   );
+=======
+  return <div>Header</div>;
+>>>>>>> ad588c514726cca38abc7e75212bcba923364221
 };
 
 export default Header;
