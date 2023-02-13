@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .gpt3__navbar {
   display: flex;
   justify-content: space-between;
@@ -116,18 +115,15 @@
     padding: 2rem;
   }
 
-  .gpt3__navbar-sign{
+  .gpt3__navbar-sign {
     display: none;
   }
-   
-  .gpt3__navbar-menu_container{
+
+  .gpt3__navbar-menu_container {
     top: 20px;
   }
 
-  .gpt3__navbar-menu_container-links-sign{
+  .gpt3__navbar-menu_container-links-sign {
     display: block;
   }
 }
-=======
-good buy
->>>>>>> ad588c514726cca38abc7e75212bcba923364221
