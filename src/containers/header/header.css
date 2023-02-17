@@ -3,6 +3,11 @@
 }
 
 .gpt3__header-content {
+.gpt__header {
+  display: flex;
+}
+
+.gpt__header-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -15,6 +20,9 @@
   font-weight: 800;
   font-size: 62px;
   line-height: 72px;
+
+  font-style: 62px;
+  line-height: 75px;
   letter-spacing: -0.04rem;
 }
 
@@ -42,6 +50,8 @@
   font-size: 20px;
   line-height: 27px;
   background: var(--color-footer);
+
+  background: var(--colot-footer);
   border: 2px solid var(--color-footer);
   padding: 0 1rem;
   outline: none;
@@ -157,4 +167,13 @@
     font-size: 12px;
     line-height: 16px;
   }
+
+  border-radius: 5px 0 0 5px;
+}
+
+.gpt3__header-content__input button {
+  background: #ff4820;
+  padding: 0 1rem;
+  border: none;
+  color: #fff;
 }
