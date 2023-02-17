@@ -1,5 +1,10 @@
 import React from "react";
 import "./whatGPT3.css";
+import Feature from "./../../components/feature/Feature";
+
+const WhatGPT3 = () => {
+  return (
+    <div className="gpt3__whatgpt3 section__margin" id="whpt3">
 import Feature from './../../components/feature/Feature';
 
 const WhatGPT3 = () => {
@@ -10,6 +15,7 @@ const WhatGPT3 = () => {
       </div>
 
       <div className="gpt3__whatgpt3-heading">
+        <h1 className="gradient__text">
         <h1 className="gradient-text">
           The possibilities are beyond your imagination
         </h1>

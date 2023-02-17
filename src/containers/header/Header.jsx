@@ -21,6 +21,7 @@ const Header = () => {
           <input type="email" placeholder="Your Email Address" />
           <button type="button">Get Started</button>
         </div>
+
         <div className="gpt3__header-content__people">
           <img src={peopleGroup} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
@@ -28,6 +29,10 @@ const Header = () => {
       </div>
       <div className="gpt3__header-image">
         <img src={headerIllustration} alt="AI" />
+      </div>
+    </div>
+  )
+}
       </div>
     </div>
   )
