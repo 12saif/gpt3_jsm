@@ -3,6 +3,7 @@
 }
 
 .gpt3__header-content {
+
 .gpt__header {
   display: flex;
 }
@@ -20,6 +21,7 @@
   font-weight: 800;
   font-size: 62px;
   line-height: 72px;
+
 
   font-style: 62px;
   line-height: 75px;
@@ -50,6 +52,7 @@
   font-size: 20px;
   line-height: 27px;
   background: var(--color-footer);
+
 
   background: var(--colot-footer);
   border: 2px solid var(--color-footer);

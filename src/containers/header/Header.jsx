@@ -37,6 +37,10 @@ const Header = () => {
     </div>
   )
 }
+      </div>
+    </div>
+  )
+}
         <div className="gpt__header-img">
           <img src={headerIllustration} alt="AI" />
         </div>
