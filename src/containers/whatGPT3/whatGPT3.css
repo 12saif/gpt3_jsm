@@ -11,6 +11,7 @@
     #042c54 25%,
     rgba(4, 44, 84, 1) 85%,
     rgba(27, 120, 222, 1) 100%
+
   padding: 2rem;
   /* background: var(--color-footer); */
 
@@ -27,6 +28,7 @@
     #042c54 25%,
     rgba(4, 44, 84, 1) 85%,
     rgba(27, 120, 222, 1) 100%
+
     circle at 100% 100%,
     rgba(80, 214, 237, 1) 0%,
     rgba(10, 51, 101, 1) 24%
@@ -38,6 +40,7 @@
     #042c54 25%,
     rgba(4, 44, 84, 1) 85%,
     rgba(27, 120, 222, 1) 100%
+
     circle at 100% 100%,
     rgba(80, 214, 237, 1) 0%,
     rgba(10, 51, 101, 1) 24%
@@ -49,6 +52,7 @@
     #042c54 25%,
     rgba(4, 44, 84, 1) 85%,
     rgba(27, 120, 222, 1) 100%
+
     circle at 100% 100%,
     rgba(80, 214, 237, 1) 0%,
     rgba(10, 51, 101, 1) 24%
@@ -63,6 +67,7 @@
   );
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
     circle at 100% 100%,
     rgba(80, 214, 237, 1) 0%,
     rgba(10, 51, 101, 1) 24%
@@ -81,6 +86,7 @@
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
   max-width: 700px;
+
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
   margin: 0;
 }
@@ -103,6 +109,7 @@
   font-weight: 800;
   font-family: var(--font-family);
   max-width: 510px;
+
   min-width: 510px;
   font-family: var(--font-family);
   font-style: normal;
@@ -137,6 +144,7 @@
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
   margin-top: 0.5rem;
+
 .gpt3__whatgpt3-container .gpt3__features-container{
     flex: 1;
     margin: 1rem;
@@ -166,12 +174,14 @@
 
   /* Customizing feature component as per needs */
   .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+
   .gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
     margin-top: 0.5rem;
   }
 
   .gpt3__whatgpt3-heading h1 {
     font-size: 28px;
+
     font-style: 28px;
     line-height: 40px;
   }
@@ -180,6 +190,7 @@
 @media screen and (max-width: 350px) {
   /* Customizing feature component as per needs */
   .gpt3__whatgpt3-container .gpt3__features-container__feature {
+
   .gpt3__features-container .gpt3__whatgpt3-feature {
     margin: 1rem 0;
     min-width: 100%;
