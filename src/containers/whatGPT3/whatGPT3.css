@@ -21,6 +21,80 @@
     background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+
+  padding: 2rem;
+  /* background: var(--color-footer); */
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 100% 100%,
+    rgba(80, 214, 237, 1) 0%,
+    rgba(10, 51, 101, 1) 24%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+
+    circle at 100% 100%,
+    rgba(80, 214, 237, 1) 0%,
+    rgba(10, 51, 101, 1) 24%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+
+    circle at 100% 100%,
+    rgba(80, 214, 237, 1) 0%,
+    rgba(10, 51, 101, 1) 24%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+
+    circle at 100% 100%,
+    rgba(80, 214, 237, 1) 0%,
+    rgba(10, 51, 101, 1) 24%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    circle at 100% 100%,
+    rgba(80, 214, 237, 1) 0%,
+    rgba(10, 51, 101, 1) 24%
+  );
 }
 
 .gpt3__whatgpt3-feature {
@@ -35,6 +109,14 @@
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
     max-width: 700px;
+
+  max-width: 700px;
+
+.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+  margin: 0;
+}
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
+  min-width: 700px;
 }
 
 .gpt3__whatgpt3-heading {
@@ -52,6 +134,16 @@
     font-weight: 800;
     font-family: var(--font-family);
     max-width: 510px;
+
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+
+  min-width: 510px;
+  font-family: var(--font-family);
+  font-style: normal;
 }
 
 .gpt3__whatgpt3-heading p {
@@ -73,6 +165,20 @@
 
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container__feature {
+
+
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+  margin-top: 0.5rem;
+
+.gpt3__whatgpt3-container .gpt3__features-container{
     flex: 1;
     margin: 1rem;
     min-width: 210px;
@@ -120,4 +226,43 @@
         margin: 1rem 0;
         min-width: 100%;
     }
+}
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+  /* Customizing feature component as per needs */
+
+  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    flex-direction: column;
+  }
+
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+
+  .gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 28px;
+
+    font-style: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+
+  .gpt3__features-container .gpt3__whatgpt3-feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
 }

@@ -21,6 +21,7 @@ const featuresData = [
   },
 ];
 // !  Feture data create here top
+
 const Features = () => {
   return (
     <div className="gpt3__features section__padding" id="features">
