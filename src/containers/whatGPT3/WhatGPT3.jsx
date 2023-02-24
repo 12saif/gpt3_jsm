@@ -29,6 +29,7 @@ const WhatGPT3 = () => (
         title="Education"
         text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
       />
+
 const WhatGPT3 = () => {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="whpt3">

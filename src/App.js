@@ -12,6 +12,7 @@ import {
 
 import { CTA, Brand, Navbar } from "./components";
 
+
 import Footer from "./containers/footer/Footer";
 import Blog from "./containers/blog/Blog";
 import Possibility from "./containers/possibility/Possibility";
@@ -27,7 +28,7 @@ import Header from "./containers/header/Header";
   //   Header,
   // } from "./containers";
   import { CTA, Brand, Navbar } from "./components";
-  
+ 
 
 const App = () => {
   return (
